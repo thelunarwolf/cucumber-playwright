@@ -1,0 +1,16 @@
+{
+  "name": "cucumber-playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/@cucumber/cucumber/bin/cucumber.js features/search-jobs/ --require=features/search-jobs/**/*.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cucumber/cucumber": "^8.5.1",
+    "@reportportal/agent-js-cucumber": "^5.0.2",
+    "playwright": "^1.25.0"
+  }
+}
